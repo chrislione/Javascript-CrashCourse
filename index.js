@@ -1,20 +1,10 @@
-const game = {
-	title: 'Call fo duty',
-	platform: 'playstation',
-	year: 2022
-};
+// Output: [[9,1,2],[3,4,5],[6,7,8]]
 
-//-------------using the dot method----------------------------------
-let Title = game.title;
-console.log(Title);
-
-// using key value
-// let platform=game[platform] // your  key have to be in a string format to work. hence this will give you an error
-
-//------------correction--------------
-let Platform = game['platform'];
-console.log(Platform);
-
-// Destructor
-let{title}=game
-console.log(title)
+grid = [[1,2,3],
+        [4,5,6],
+        [7,8,9]
+        ]
+newgrid= grid.map(function(items){
+  console.log(items.reverse())
+  
+})

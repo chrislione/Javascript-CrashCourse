@@ -1,49 +1,49 @@
-// //error handling in javascript 
+// error handling in javascript 
 
-// // try{
-// //   console.log(player, player2)
-// // }
-// // catch(err){
-// //   console.log("Error have been log in err")
-// // }
-// // console.log("Countiue to task ")
+try{
+  console.log(player, player2)
+}
+catch(err){
+  console.log("Error have been log in err")
+}
+console.log("Countiue to task ")
 
-// //prototype
-// // let text = "Hello world!";
-// // let result = text.repeat(2);
-// // console.log(result)
-
-
-// // let textd = "Mr Blue has a blue house and a blue car and a white house";
-// // let result = text.replace(/blue/g, "red");
-
-// // console.log(result)
-
-// let text = "The rain in SPAIN stays mainly in the plain";
-// var res=text.match("ain");
-// console.log("result",res)
-
-// console.log("---------------------------------------------------")
-
-// let txt = "The rain in SPAIN stays mainly in the plain";
-// console.log(txt.match(/ain/gi));
-// console.log(txt.match(/ain/g));
-// console.log(txt.match(/ain/));
+prototype
+let text = "Hello world!";
+let result = text.repeat(2);
+console.log(result)
 
 
-//   var result = null;
-//   console.log(result);
+let textd = "Mr Blue has a blue house and a blue car and a white house";
+let result = text.replace(/blue/g, "red");
+
+console.log(result)
+
+let text = "The rain in SPAIN stays mainly in the plain";
+var res=text.match("ain");
+console.log("result",res)
+
+console.log("---------------------------------------------------")
+
+let txt = "The rain in SPAIN stays mainly in the plain";
+console.log(txt.match(/ain/gi));
+console.log(txt.match(/ain/g));
+console.log(txt.match(/ain/));
 
 
-//   try {
-//     console.log('Hello');
-//   } catch(err) {
-//     console.log('Goodbye');
-//   }
+  var result = null;
+  console.log(result);
 
-// var str = "Hello";
-// var s= str.match("jello");
-// console.log("str",s)
+
+  try {
+    console.log('Hello');
+  } catch(err) {
+    console.log('Goodbye');
+  }
+
+var str = "Hello";
+var s= str.match("jello");
+console.log("str",s)
 
 const products = [
   {
@@ -113,6 +113,7 @@ const list=mylist.find((Tlist)=>number===Tlist.number)
 // console.log(list)
 
 
+//--------------concat --------------
 
 let name=["bob","smith"]
 let lastname=['odum']
@@ -120,19 +121,24 @@ let fullname=name.concat(lastname)
 // console.log(fullname)
 
 // fullname.reverse()
+//--------------unshift and push --------------
+
 fullname.unshift("luck")//adds to the array,unshift adds element at the first index of the list 
 fullname.push("grey")  // adds to the array, push adds element at the last index of the list
 // console.log(fullname)
 
 
+//--------------shift and pop --------------
 
 // fullname.shift()//remove the element at first index the array
 // fullname.pop() //remove the element at last index the array
 // console.log(fullname)
 elementName=['p','y','t','h','o','n']
 console.log(elementName)
+//--------------splice and slice--------------
 
-x=elementName.splice(1 ,3)
+x=elementName.splice(1 ,3) // this will include the last index 3 
+x=elementName.slice(1 ,3) // this will exclude the last index 3
 console.log(x)
 
 console.log(elementName)
