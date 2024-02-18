@@ -19,7 +19,7 @@ console.log(profile[myname])
 //NOTE: if you decide to use this, remember the square brackets only take a string to be able to excess the properties
 
 
-//-------------for loop in dictonary and array-----------------------
+//-------------for loop in dictonary and arrays-----------------------
 array =[10,4,88,9,67,33,4878]
 let fruits = {'apple':'red', 'pear':'green', 'banana':'yellow', 'plum':'purple'}
 for( x in fruits){
